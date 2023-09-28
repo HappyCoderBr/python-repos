@@ -1,7 +1,12 @@
-'''python script for acquiring championship points and telling the winner'''
+'''
+python script for acquiring championship points and telling the winner
+0-39 groups
+40-49 sum up
+50-59 winners
+'''
 
 # declare team vector
-team = [0] * 50
+team = [0] * 70
 
 # run through vector
 for i in range(0, 40):
@@ -25,3 +30,39 @@ for k in range(0, 40, 4):
     team[k//4 + 40] = team[k+1] + team[k+2] + team[k+3]
 
 print(team)
+#find winner
+win = team[40]
+for w in range(41, 50):
+    if team[w] > team[w-1]:
+        win = team[w]
+    elif team[w] == team [w-1]:
+        team[w+10] = 1
+        
+'''      
+for d in range(50, 59):
+    if team[d] == team[d+1]:
+        if team[d-49] > team[]
+'''   
+
+#check vector for equals ones
+for d in range(50, 60):
+    for f in range(50, 60):
+        if team[d] == team[f] and d != f:
+            #test gold
+            if team[d-49] > team[(4*f-1)-199]:
+                print(f"Winenr team is: {team[d-49]}")
+            elif team[d-49] 
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+    
