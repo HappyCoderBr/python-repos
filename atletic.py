@@ -3,6 +3,10 @@ python script for acquiring championship points and telling the winner
 0-39 groups
 40-49 sum up
 50-59 winners
+60-69 golds
+70-79 silvers
+80-89 bronzes
+96-99 counters
 '''
 
 ####     INDEXES: 0-69  ###
