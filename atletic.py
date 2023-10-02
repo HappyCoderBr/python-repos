@@ -1,4 +1,7 @@
 '''
+
+https://youtu.be/f3FnCoKWmBg?si=IsD7jUyGS4tBtAyx
+
 python script for acquiring championship points and telling the winner
 0-39 groups
 40-49 sum up
