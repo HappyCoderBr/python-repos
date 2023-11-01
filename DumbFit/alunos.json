@@ -1,0 +1,22 @@
+[
+    {
+        "id":"00001",
+        "nome":"Lorenzo Vaz Marzari",
+        "idade":19,
+        "peso":86.0,
+        "altura":1.96,
+        "imc":22,
+        "sexo":"M",
+        "mensalidade":250
+    },
+    {
+        "id":"00002",
+        "nome":"liaehg",
+        "idade":12,
+        "peso":67.0,
+        "altura":2.0,
+        "imc":16,
+        "sexo":"M",
+        "mensalidade":150
+    }
+]
